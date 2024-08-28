@@ -1,0 +1,16 @@
+name: SimpleBrewingCraft
+version: '${project.version}'
+main: net.simple.brewing.craft.SimpleBrewingCraftPlugin
+api-version: '1.21'
+author: No_KessPen
+description: SimpleBrewingCraft - plugin that adds a crafting system based on brewing
+commands:
+  brewingcrafts:
+    description: Show menu with all brewing items
+    aliases: [brewcrafts, bcrafts, bc, brewc]
+    permission: simple.brewing.craft.brewingcrafts
+permissions:
+  simple.brewing.craft.brewingcrafts:
+    description: Access for menu with all brewing items
+    default: op
+
